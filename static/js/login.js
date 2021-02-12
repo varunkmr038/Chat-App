@@ -9,4 +9,4 @@ submit.addEventListener('click',(e)=>{
 
 });
 
-module.exports=`${window.location.href}`;
+localStorage.setItem('href',window.location.href);

@@ -1,4 +1,4 @@
-const href=require('./login.js');
+const href=localStorage.getItem('href');
 const socket=io(href);
 
 const form=document.getElementById('send');
