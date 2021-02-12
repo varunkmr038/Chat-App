@@ -1,10 +1,11 @@
-# To Do List      <img align="center" width="50" height="50" src="static/img/chat.png">
-### The project is based on storing list of todos. It provides simple UI to interact and perform basic operations like add and delete particular ToDo.
+# IChat App      <img align="center" width="50" height="50" src="static/img/chat.png">
+### A Simple Real time chat web application created using SocketIO , Node and pure CSS
 ## :rocket: Tech Stack used: 
 - HTML
 - CSS
-- Bootstrap
-- Javascript
+- Node js
+- Express
+- SocketIO
 
-## [Live Site](https://todo-listweb.netlify.app)
-https://todo-listweb.netlify.app
+## [Live Site](https://ichatweb.herokuapp.com)
+https://ichatweb.herokuapp.com
