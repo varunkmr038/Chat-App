@@ -1,4 +1,4 @@
-const socket=io('https://ichatweb.herokuapp.com/');
+const socket=io(window.location.href);
 
 const form=document.getElementById('send');
 const messageinp=document.getElementById('inp-message');
