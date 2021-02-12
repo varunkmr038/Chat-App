@@ -9,3 +9,4 @@ submit.addEventListener('click',(e)=>{
 
 });
 
+module.exports=`${window.location.href}`;

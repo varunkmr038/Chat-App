@@ -1,4 +1,5 @@
-const socket=io(window.location.href);
+const href=require('login.js');
+const socket=io(href);
 
 const form=document.getElementById('send');
 const messageinp=document.getElementById('inp-message');
