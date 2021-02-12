@@ -1,4 +1,4 @@
-const href=require('login.js');
+const href=require('./login.js');
 const socket=io(href);
 
 const form=document.getElementById('send');
