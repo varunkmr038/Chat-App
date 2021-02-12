@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iChat || Realtime Chatting App</title>
+    <link rel="shortcut icon" href="static/img/chat.png" type="image/x-icon">
+
+    <!-- connecting server to client  -->
+
+    <link rel="stylesheet" href="static/css/style.css">
+    <link rel="stylesheet"  media="screen and (max-width:1000px)" href="static/css/phone.css">
+</head>
+
+<body>
+
+
+    <nav id="nav">
+        <img src="static/img/chat.png" alt="Error" id="logo">
+        
+    </nav>
+
+    <div class="container">
+      
+    </div>
+
+    <div id="send-container">
+        <form action="#" id="send">
+            <input type="text" id="inp-message" placeholder="Here">
+
+            <button type="submit" class="btn">Send</button>
+
+        </form>
+    </div>
+
+   
+    <audio src="static/js/ting.mp3"  id="myaudio"></audio>
+
+</body>
+<script src="http://localhost:8000/socket.io/socket.io.js"></script>
+<script src="static/js/client.js"></script>
+
+</html>
