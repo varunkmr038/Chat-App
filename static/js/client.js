@@ -25,7 +25,7 @@ messagecontainer.scrollTop = messagecontainer.scrollHeight;
 
 //asks name of the user
 const name=localStorage.getItem('name'); 
-
+    
 socket.emit('new-user-joined',name);
 
 socket.on('user-joined',name=>{         //user joined the chat
